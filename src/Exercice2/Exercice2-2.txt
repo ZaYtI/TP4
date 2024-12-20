@@ -1,0 +1,5 @@
+On ajoute ici au point de départ et au point d'arriver des afin de mieux les repérer:
+
+1.Dessine le motif demandé en rouge à partir du point (100,100)
+2.Ajoute deux petits points bleus pour marquer les positions (0,0) et (100,100)
+3.Permet de bien visualiser le système de coordonnées
