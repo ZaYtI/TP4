@@ -13,6 +13,7 @@ public class Dessin1 extends Canvas {
         // Triangle pour le toit
         int[] xPoints = {75, 150, 225};  // Points X du triangle
         int[] yPoints = {100, 25, 100};  // Points Y du triangle
+
         // Couleur Rouge pour le toit
         g.setColor(Color.RED);
         g.fillPolygon(xPoints, yPoints, 3);

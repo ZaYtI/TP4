@@ -20,7 +20,7 @@ public class Dessin1 extends Canvas {
         for(int x = 0; x < getSize().width; x++) {
             // Conversion des coordonnées
             double angle = (x - 50) * 0.05;  // facteur d'échelle
-            int y = (int)(getSize().height/2 - Math.cos(angle) * 100);  // *100 pour amplifier
+            int y = (int)((double) getSize().height /2 - Math.cos(angle) * 100);  // *100 pour amplifier
 
             g.drawLine(lastX, lastY, x, y);
             lastX = x;

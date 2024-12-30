@@ -21,16 +21,4 @@ public class Dessin1 extends Canvas {
         g.fillOval(0, 0, 5, 5);  // Point en (0,0)
         g.fillOval(100, 100, 5, 5);  // Point en (100,100)
     }
-
-    public static void main(String[] arg) {
-        Frame f = new Frame();
-        f.setBounds(0, 0, 500, 500);
-        f.add(new Dessin1());
-        f.addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent ev) {
-                System.exit(0);
-            }
-        });
-        f.show();
-    }
 }
