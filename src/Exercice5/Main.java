@@ -1,13 +1,9 @@
 package Exercice5;
 
-import Exercice4.Dessin1;
-
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         Frame f = new Frame(); // Créer une fenêtre
@@ -17,7 +13,7 @@ public class Main {
         f.addWindowListener( new WindowAdapter() {
             public void windowClosing(WindowEvent ev) { System.exit(0);
             }
-        }); // Montrer le tout
-        f.show();
+        });
+        f.show();// Montrer le tout
     }
 }
